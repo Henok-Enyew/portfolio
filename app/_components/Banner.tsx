@@ -55,6 +55,16 @@ const Banner = () => {
                         specialize in crafting intuitive user interfaces and
                         robust backends.
                     </p>
+                    {/* <Button
+                        as="link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={GENERAL_INFO.resume}
+                        variant="primary"
+                        className="mt-9 banner-button slide-up-and-fade"
+                    >
+                        Resume
+                    </Button>{' '}
                     <Button
                         as="link"
                         target="_blank"
@@ -62,6 +72,26 @@ const Banner = () => {
                         href={GENERAL_INFO.upworkProfile}
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
+                    >
+                        Hire Me
+                    </Button> */}
+                    <Button
+                        as="link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={GENERAL_INFO.resume}
+                        variant="primary"
+                        className="mt-9 banner-button slide-up-and-fade bg-background text-foreground hover:bg-foreground hover:text-background border border-foreground transition"
+                    >
+                        Resume
+                    </Button>
+                    <Button
+                        as="link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={GENERAL_INFO.upworkProfile}
+                        variant="primary"
+                        className="mt-9 ml-2 banner-button slide-up-and-fade"
                     >
                         Hire Me
                     </Button>
