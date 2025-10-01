@@ -42,7 +42,7 @@ const Banner = () => {
             >
                 <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[544px]">
                     <h1 className="banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton">
-                        <span className="text-primary">FRONTEND</span>
+                        <span className="text-primary">FULLSTACK</span>
                         <br /> <span className="ml-4">DEVELOPER</span>
                     </h1>
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
@@ -50,15 +50,16 @@ const Banner = () => {
                         <span className="font-medium text-foreground">
                             Henok Enyew
                         </span>
-                        , a frontend developer focused on crafting reliable,
-                        high-performing web experiences that feel effortless to
-                        use.
+                        , a full-stack developer passionate about building
+                        scalable, high-performance web applications. I
+                        specialize in crafting intuitive user interfaces and
+                        robust backends.
                     </p>
                     <Button
                         as="link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        href={GENERAL_INFO.githubProfile}
+                        href={GENERAL_INFO.upworkProfile}
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
@@ -77,18 +78,18 @@ const Banner = () => {
                     </div>
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            7+
+                            5+
                         </h5>
                         <p className="text-muted-foreground">
                             Completed Projects
                         </p>
                     </div>
-                    <div className="slide-up-and-fade">
+                    {/* <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
                             10K+
                         </h5>
                         <p className="text-muted-foreground">Hours Worked</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

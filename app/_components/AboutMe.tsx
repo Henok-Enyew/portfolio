@@ -55,9 +55,9 @@ const AboutMe = () => {
         <section className="pb-section" id="about-me">
             <div className="container" ref={container}>
                 <h2 className="text-4xl md:text-6xl font-thin mb-20 slide-up-and-fade">
-                    I believe in a user centered design approach, ensuring that
-                    every project I work on is tailored to meet the specific
-                    needs of its users.
+                    I build end-to-end web applications that are scalable,
+                    intuitive, and reliable, combining clean user experiences
+                    with powerful backends.
                 </h2>
 
                 <p className="pb-3 border-b text-muted-foreground slide-up-and-fade">
@@ -73,17 +73,21 @@ const AboutMe = () => {
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                                I&apos;m a frontend web developer dedicated to
-                                building performant, accessible interfaces. I
-                                love translating complex problems into
-                                thoughtful, user-first experiences.
+                                I&apos;m a full-stack web developer with a focus
+                                on building scalable, reliable, and
+                                user-friendly applications. I enjoy turning
+                                ideas into production-ready solutions, whether
+                                it&apos;s designing smooth interfaces or
+                                developing efficient backend systems.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
-                                My approach favors scalable architectures, clean
-                                code, and close collaboration with product
-                                teams. By balancing performance, accessibility,
-                                and visual polish, I aim to ship work that feels
-                                intentional and delivers clear results.
+                                My approach combines clean architecture,
+                                performance, and maintainability, while always
+                                keeping the end-user in mind. Having worked on
+                                diverse projects — from HR management systems to
+                                event dashboards and rental platforms — I’ve
+                                learned the value of both technical precision
+                                and real-world impact.
                             </p>
                         </div>
                     </div>

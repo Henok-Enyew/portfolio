@@ -8,6 +8,7 @@ export const GENERAL_INFO = {
 
     portfolio: 'https://your-portfolio-url.com',
     githubProfile: 'https://github.com/henok-enyew',
+    upworkProfile: 'https://www.upwork.com/freelancers/~01578499d0b97c0f37',
 };
 
 export const SOCIAL_LINKS = [
@@ -32,32 +33,16 @@ export const MY_STACK = {
             icon: '/logo/react.png',
         },
         {
+            name: 'vue',
+            icon: '/logo/vue.svg',
+        },
+        {
             name: 'Next.js',
             icon: '/logo/next.png',
         },
         {
-            name: 'Redux',
-            icon: '/logo/redux.png',
-        },
-        {
             name: 'Tailwind CSS',
             icon: '/logo/tailwind.png',
-        },
-        {
-            name: 'GSAP',
-            icon: '/logo/gsap.png',
-        },
-        {
-            name: 'Framer Motion',
-            icon: '/logo/framer-motion.png',
-        },
-        {
-            name: 'Sass',
-            icon: '/logo/sass.png',
-        },
-        {
-            name: 'Bootstrap',
-            icon: '/logo/bootstrap.svg',
         },
     ],
     backend: [
@@ -73,12 +58,12 @@ export const MY_STACK = {
             name: 'Express.js',
             icon: '/logo/express.png',
         },
+        {
+            name: 'Django',
+            icon: '/logo/django.svg',
+        },
     ],
     database: [
-        {
-            name: 'MySQL',
-            icon: '/logo/mysql.svg',
-        },
         {
             name: 'PostgreSQL',
             icon: '/logo/postgreSQL.png',
@@ -86,10 +71,6 @@ export const MY_STACK = {
         {
             name: 'MongoDB',
             icon: '/logo/mongodb.svg',
-        },
-        {
-            name: 'Prisma',
-            icon: '/logo/prisma.png',
         },
     ],
     tools: [
@@ -101,64 +82,53 @@ export const MY_STACK = {
             name: 'Docker',
             icon: '/logo/docker.svg',
         },
-        {
-            name: 'AWS',
-            icon: '/logo/aws.png',
-        },
+        // {
+        //     name: 'AWS',
+        //     icon: '/logo/aws.png',
+        // },
     ],
 };
 
 export const PROJECTS: IProject[] = [
     {
-        title: 'MTI Electronics',
-        slug: 'mti-electronics',
-        liveUrl: 'https://mti-electronics.vercel.app/',
+        title: 'Tankwa Tours',
+        slug: 'tankwa-tours',
+        liveUrl: 'https://tankwatours.com/',
         year: 2025,
         description:
-            'Project description coming soon. Henok will replace this text with tailored details for MTI Electronics.',
-        role: 'Role details coming soon.',
+            'Tankwa tours is a travel agency specializing in unique experiences in the across the world.',
+        role: 'Fullstack Developer',
         techStack: [
-            'Next.js',
-            'Payload CMS',
+            'Reactjs',
+            'Django',
             'Tailwind CSS',
             'shadcn',
             'Swiper.js',
             'React Hook Form',
-            'Vercel',
+            'Netlify',
         ],
-        thumbnail: '/projects/thumbnail/mti-electronics.webp',
+        thumbnail: '/projects/thumbnail/tankwatours-1.png',
         longThumbnail: '/projects/long/mti-electronics.webp',
         images: [
-            '/projects/images/mti-electronics-1.webp',
-            '/projects/images/mti-electronics-2.webp',
+            '/projects/images/tankwatours-1.png',
+            '/projects/images/tankwatours-2.png',
         ],
     },
     {
-        title: 'Epikcart',
-        slug: 'epikcart',
-        techStack: [
-            'React',
-            'Redux',
-            'React i18n',
-            'Tailwind CSS',
-            'Framer Motion',
-            'debouncing',
-            'Api Integration',
-        ],
-        thumbnail: '/projects/thumbnail/epikcart.jpg',
-        longThumbnail: '/projects/long/epikcart.jpg',
+        title: 'Tana Car Rental',
+        slug: 'tana-car-rental',
+        techStack: ['React', 'Tailwind CSS'],
+        thumbnail: '/projects/thumbnail/tanacars-1.png',
+        longThumbnail: '/projects/long/tanacars-1.png',
         images: [
-            '/projects/images/epikcart-1.png',
-            '/projects/images/epikcart-2.png',
-            '/projects/images/epikcart-3.png',
-            '/projects/images/epikcart-4.png',
-            '/projects/images/epikcart-5.png',
+            '/projects/images/tanacars-1.png',
+            '/projects/images/tanacars-2.png',
         ],
-        liveUrl: 'https://demo.epikcart.siphertech.com/',
+        liveUrl: 'https://tana-car-rental.netlify.app/',
         year: 2023,
         description:
-            'Project description coming soon. Henok will update the Epikcart case study to highlight goals, outcomes, and technology decisions.',
-        role: 'Role details coming soon.',
+            'Tana Car Rental is a platform that simplifies the process of renting cars for users.',
+        role: 'Frontend Developer.',
     },
     {
         title: 'Resume Roaster',
@@ -246,18 +216,18 @@ export const PROJECTS: IProject[] = [
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Lead Frontend Engineer',
-        company: 'Your Company Name',
-        duration: 'Jan 2024 - Present',
+        title: 'Lead FullStack Engineer',
+        company: 'Tankwa Tours',
+        duration: 'April 2025 - Present',
     },
     {
-        title: 'Senior Frontend Developer',
-        company: 'Previous Employer',
-        duration: 'Jun 2022 - Dec 2023',
+        title: 'Backend Developer',
+        company: 'Ethioden IT Consultancy',
+        duration: 'November 2024 - May 2025',
     },
     {
         title: 'Frontend Developer',
-        company: 'Early Career Company',
-        duration: 'Jan 2020 - May 2022',
+        company: 'Ethiopian Space Science Society',
+        duration: 'January 2024 - October 2024',
     },
 ];
