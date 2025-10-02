@@ -83,11 +83,11 @@ const AboutMe = () => {
                             <p className="mt-3 slide-up-and-fade">
                                 My approach combines clean architecture,
                                 performance, and maintainability, while always
-                                keeping the end-user in mind. Having worked on
-                                diverse projects — from HR management systems to
-                                event dashboards and rental platforms — I’ve
-                                learned the value of both technical precision
-                                and real-world impact.
+                                keeping the end user in mind. Having worked on
+                                diverse projects from Tour apps to HR management
+                                systems, event dashboards, and rental platforms,
+                                I’ve learned the value of both technical
+                                precision and real-world impact.
                             </p>
                         </div>
                     </div>
