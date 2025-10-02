@@ -75,26 +75,28 @@ const Banner = () => {
                     >
                         Hire Me
                     </Button> */}
-                    <Button
-                        as="link"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href={GENERAL_INFO.resume}
-                        variant="primary"
-                        className="mt-9 banner-button slide-up-and-fade bg-background text-foreground hover:bg-foreground hover:text-background border border-foreground transition"
-                    >
-                        Resume
-                    </Button>
-                    <Button
-                        as="link"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href={GENERAL_INFO.upworkProfile}
-                        variant="primary"
-                        className="mt-9 ml-2 banner-button slide-up-and-fade"
-                    >
-                        Hire Me
-                    </Button>
+                    <div className="flex gap-x-5">
+                        <Button
+                            as="link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={GENERAL_INFO.resume}
+                            variant="primary"
+                            className="mt-9 banner-button slide-up-and-fade bg-background text-foreground hover:bg-foreground hover:text-background border border-foreground transition"
+                        >
+                            Resume
+                        </Button>
+                        <Button
+                            as="link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={GENERAL_INFO.upworkProfile}
+                            variant="primary"
+                            className="mt-9 banner-button slide-up-and-fade"
+                        >
+                            Hire Me
+                        </Button>
+                    </div>
                 </div>
 
                 <div className="md:absolute bottom-[10%] right-[4%] flex md:flex-col gap-4 md:gap-8 text-center md:text-right">
