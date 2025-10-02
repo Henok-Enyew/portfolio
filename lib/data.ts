@@ -197,12 +197,12 @@ export const PROJECTS: IProject[] = [
 
 export const MY_EXPERIENCE = [
     {
-        title: 'FullStack Engineer Intern',
+        title: 'FullStack Engineer',
         company: 'Brainbite AI',
         duration: 'September 2025 - Present',
     },
     {
-        title: 'FullStack Engineer',
+        title: 'FullStack Developer',
         company: 'Tankwa Tours',
         duration: 'April 2025 - Present',
     },
