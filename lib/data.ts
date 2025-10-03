@@ -9,7 +9,7 @@ export const GENERAL_INFO = {
     // portfolio: 'https://your-portfolio-url.com',
     githubProfile: 'https://github.com/henok-enyew',
     upworkProfile: 'https://www.upwork.com/freelancers/~01578499d0b97c0f37',
-    resume: 'https://drive.google.com/file/d/1aOatOSD7-FiG9m2aeDZMRl0gTPpKUSbx/view?usp=sharing',
+    resume: 'https://drive.google.com/file/d/1zVOks7LNjbjUnx61iP8rKztEEeot0HfV/view?usp=sharing',
 };
 
 export const SOCIAL_LINKS = [
